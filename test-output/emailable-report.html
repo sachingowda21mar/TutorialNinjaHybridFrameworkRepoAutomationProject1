@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">TutorialsNinjaAutomationSuite</th></tr>
+<tr><td><a href="#t0">TutorialNinjaTestcases</a></td><td class="num">11</td><td class="num attn">1</td><td class="num">0</td><td class="num attn">2</td><td class="num">66,946</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">TutorialsNinjaAutomationSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">TutorialNinjaTestcases &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.TutorialNinja.QA.Testcases.LoginTest</td><td><a href="#m0">LoginintotheApplicationWithValidCredential</a></td><td rowspan="2">1708233172330</td><td rowspan="2">10643</td></tr><tr class="failedeven"><td><a href="#m1">LoginintotheApplicationWithValidCredential</a></td></tr><tr><th colspan="4">TutorialNinjaTestcases &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.TutorialNinja.QA.Testcases.LoginTest</td><td><a href="#m2">LoginintotheApplicationWithInvalidCredential</a></td><td rowspan="1">1708233183575</td><td rowspan="1">0</td></tr><tr><th colspan="4">TutorialNinjaTestcases &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.TutorialNinja.QA.Testcases.LoginTest</td><td><a href="#m3">LoginintotheApplicationWithInvalidEmailAndValidPassword</a></td><td rowspan="1">1708233185657</td><td rowspan="1">797</td></tr><tr class="passedeven"><td><a href="#m4">LoginintotheApplicationWithValidCredential</a></td><td rowspan="1">1708233155939</td><td rowspan="1">820</td></tr><tr class="passedeven"><td><a href="#m5">LoginintotheApplicationWithValidEmailAndInvalidPassword</a></td><td rowspan="1">1708233189924</td><td rowspan="1">586</td></tr><tr class="passedeven"><td><a href="#m6">LoginintotheApplicationWithoutGivingCredentials</a></td><td rowspan="1">1708233192859</td><td rowspan="1">465</td></tr><tr class="passedodd"><td rowspan="4">com.TutorialNinja.QA.Testcases.RegistrationTest</td><td><a href="#m7">RegistertotheApplicationByFillingAllFields</a></td><td rowspan="1">1708233144754</td><td rowspan="1">1510</td></tr><tr class="passedodd"><td><a href="#m8">RegistertotheApplicationByFillingAllMandatoryFields</a></td><td rowspan="1">1708233140712</td><td rowspan="1">1439</td></tr><tr class="passedodd"><td><a href="#m9">RegistertotheApplicationByFillingexistingEmailAdrres</a></td><td rowspan="1">1708233148675</td><td rowspan="1">1161</td></tr><tr class="passedodd"><td><a href="#m10">RegistertotheApplicationwithoutfillinganyfield</a></td><td rowspan="1">1708233152143</td><td rowspan="1">576</td></tr><tr class="passedeven"><td rowspan="3">com.TutorialNinja.QA.Testcases.SearchProductTest</td><td><a href="#m11">VerifySearchWithInvalidProduct</a></td><td rowspan="1">1708233197699</td><td rowspan="1">398</td></tr><tr class="passedeven"><td><a href="#m12">VerifySearchWithValidProduct</a></td><td rowspan="1">1708233195135</td><td rowspan="1">645</td></tr><tr class="passedeven"><td><a href="#m13">VerifySearchWithoutenteranyProduct</a></td><td rowspan="1">1708233200163</td><td rowspan="1">290</td></tr></tbody>
+</table>
+<h2>TutorialNinjaTestcases</h2><h3 id="m0">com.TutorialNinja.QA.Testcases.LoginTest#LoginintotheApplicationWithValidCredential</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Sachingowda21mar@gmail.com</td><td>1234</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Edit your account information&quot;}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c88ff8d4ec9d3dda3152871c3e143272, findElement {value=Edit your account information, using=link text}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Users\Achiv\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49682}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49682/devtoo..., se:cdpVersion: 121.0.6167.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c88ff8d4ec9d3dda3152871c3e143272
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.isDisplayed(Unknown Source)
+	at com.TutorialNinja.QA.PageObjects.AccountPage.VerifyDispalystatusofEditYourAccountInformationOption(AccountPage.java:26)
+	at com.TutorialNinja.QA.Testcases.LoginTest.LoginintotheApplicationWithValidCredential(LoginTest.java:60)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.TutorialNinja.QA.Testcases.LoginTest#LoginintotheApplicationWithValidCredential</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Sachingowda21mar@gmail.com</td><td>12345</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Edit your account information&quot;}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [acbe9db9b87a6a76084be7774a7022aa, findElement {value=Edit your account information, using=link text}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Users\Achiv\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49395}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49395/devtoo..., se:cdpVersion: 121.0.6167.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: acbe9db9b87a6a76084be7774a7022aa
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.isDisplayed(Unknown Source)
+	at com.TutorialNinja.QA.PageObjects.AccountPage.VerifyDispalystatusofEditYourAccountInformationOption(AccountPage.java:26)
+	at com.TutorialNinja.QA.Testcases.LoginTest.LoginintotheApplicationWithValidCredential(LoginTest.java:60)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.TutorialNinja.QA.Testcases.LoginTest#LoginintotheApplicationWithInvalidCredential</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method com.TutorialNinja.QA.Testcases.LoginTest.LoginintotheApplicationWithInvalidCredential() on instance com.TutorialNinja.QA.Testcases.LoginTest@712625fd depends on not successfully finished methods 
+[com.TutorialNinja.QA.Testcases.LoginTest.LoginintotheApplicationWithValidCredential() on instance com.TutorialNinja.QA.Testcases.LoginTest@712625fd]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.TutorialNinja.QA.Testcases.LoginTest#LoginintotheApplicationWithInvalidEmailAndValidPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.TutorialNinja.QA.Testcases.LoginTest#LoginintotheApplicationWithValidCredential</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Sachingowda21mar@gmail.com</td><td>Password@123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.TutorialNinja.QA.Testcases.LoginTest#LoginintotheApplicationWithValidEmailAndInvalidPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.TutorialNinja.QA.Testcases.LoginTest#LoginintotheApplicationWithoutGivingCredentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.TutorialNinja.QA.Testcases.RegistrationTest#RegistertotheApplicationByFillingAllFields</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.TutorialNinja.QA.Testcases.RegistrationTest#RegistertotheApplicationByFillingAllMandatoryFields</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.TutorialNinja.QA.Testcases.RegistrationTest#RegistertotheApplicationByFillingexistingEmailAdrres</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.TutorialNinja.QA.Testcases.RegistrationTest#RegistertotheApplicationwithoutfillinganyfield</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.TutorialNinja.QA.Testcases.SearchProductTest#VerifySearchWithInvalidProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.TutorialNinja.QA.Testcases.SearchProductTest#VerifySearchWithValidProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.TutorialNinja.QA.Testcases.SearchProductTest#VerifySearchWithoutenteranyProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

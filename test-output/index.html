@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-TutorialsNinjaAutomationSuite" class="navigator-link">
+              <span class="suite-name border-failed">TutorialsNinjaAutomationSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-TutorialsNinjaAutomationSuite" class="navigator-link ">
+                    <span>C:\Users\Achiv\Test work space 1\HybridAutomationFramework\src\test\resource\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-TutorialsNinjaAutomationSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-TutorialsNinjaAutomationSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-TutorialsNinjaAutomationSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-TutorialsNinjaAutomationSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-TutorialsNinjaAutomationSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-TutorialsNinjaAutomationSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">14 methods, 2 failed,  1 skipped,  11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-TutorialsNinjaAutomationSuite" class="hide-methods failed suite-TutorialsNinjaAutomationSuite"> (hide)</a> <!-- hide-methods failed suite-TutorialsNinjaAutomationSuite -->
+                      <a href="#" panel-name="suite-TutorialsNinjaAutomationSuite" class="show-methods failed suite-TutorialsNinjaAutomationSuite"> (show)</a> <!-- show-methods failed suite-TutorialsNinjaAutomationSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-TutorialsNinjaAutomationSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TutorialsNinjaAutomationSuite" title="com.TutorialNinja.QA.Testcases.LoginTest" class="method navigator-link" hash-for-method="LoginintotheApplicationWithValidCredential(Sachingowda21mar@gmail.com, 1234)">LoginintotheApplicationWithValidCredential(Sachingowda21mar@gmail.com, 1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TutorialsNinjaAutomationSuite" title="com.TutorialNinja.QA.Testcases.LoginTest" class="method navigator-link" hash-for-method="LoginintotheApplicationWithValidCredential(Sachingowda21mar@gmail.com, 12345)">LoginintotheApplicationWithValidCredential(Sachingowda21mar@gmail.com, 12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-TutorialsNinjaAutomationSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-TutorialsNinjaAutomationSuite" class="hide-methods skipped suite-TutorialsNinjaAutomationSuite"> (hide)</a> <!-- hide-methods skipped suite-TutorialsNinjaAutomationSuite -->
+                      <a href="#" panel-name="suite-TutorialsNinjaAutomationSuite" class="show-methods skipped suite-TutorialsNinjaAutomationSuite"> (show)</a> <!-- show-methods skipped suite-TutorialsNinjaAutomationSuite -->
+                    </span>
+                    <div class="method-list-content skipped suite-TutorialsNinjaAutomationSuite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-TutorialsNinjaAutomationSuite" title="com.TutorialNinja.QA.Testcases.LoginTest" class="method navigator-link" hash-for-method="LoginintotheApplicationWithInvalidCredential">LoginintotheApplicationWithInvalidCredential</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-TutorialsNinjaAutomationSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TutorialsNinjaAutomationSuite" class="hide-methods passed suite-TutorialsNinjaAutomationSuite"> (hide)</a> <!-- hide-methods passed suite-TutorialsNinjaAutomationSuite -->
+                      <a href="#" panel-name="suite-TutorialsNinjaAutomationSuite" class="show-methods passed suite-TutorialsNinjaAutomationSuite"> (show)</a> <!-- show-methods passed suite-TutorialsNinjaAutomationSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-TutorialsNinjaAutomationSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TutorialsNinjaAutomationSuite" title="com.TutorialNinja.QA.Testcases.LoginTest" class="method navigator-link" hash-for-method="LoginintotheApplicationWithInvalidEmailAndValidPassword">LoginintotheApplicationWithInvalidEmailAndValidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TutorialsNinjaAutomationSuite" title="com.TutorialNinja.QA.Testcases.LoginTest" class="method navigator-link" hash-for-method="LoginintotheApplicationWithValidCredential(Sachingowda21mar@gmail.com, Password@123)">LoginintotheApplicationWithValidCredential(Sachingowda21mar@gmail.com, Password@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TutorialsNinjaAutomationSuite" title="com.TutorialNinja.QA.Testcases.LoginTest" class="method navigator-link" hash-for-method="LoginintotheApplicationWithValidEmailAndInvalidPassword">LoginintotheApplicationWithValidEmailAndInvalidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TutorialsNinjaAutomationSuite" title="com.TutorialNinja.QA.Testcases.LoginTest" class="method navigator-link" hash-for-method="LoginintotheApplicationWithoutGivingCredentials">LoginintotheApplicationWithoutGivingCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TutorialsNinjaAutomationSuite" title="com.TutorialNinja.QA.Testcases.RegistrationTest" class="method navigator-link" hash-for-method="RegistertotheApplicationByFillingAllFields">RegistertotheApplicationByFillingAllFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TutorialsNinjaAutomationSuite" title="com.TutorialNinja.QA.Testcases.RegistrationTest" class="method navigator-link" hash-for-method="RegistertotheApplicationByFillingAllMandatoryFields">RegistertotheApplicationByFillingAllMandatoryFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TutorialsNinjaAutomationSuite" title="com.TutorialNinja.QA.Testcases.RegistrationTest" class="method navigator-link" hash-for-method="RegistertotheApplicationByFillingexistingEmailAdrres">RegistertotheApplicationByFillingexistingEmailAdrres</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TutorialsNinjaAutomationSuite" title="com.TutorialNinja.QA.Testcases.RegistrationTest" class="method navigator-link" hash-for-method="RegistertotheApplicationwithoutfillinganyfield">RegistertotheApplicationwithoutfillinganyfield</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TutorialsNinjaAutomationSuite" title="com.TutorialNinja.QA.Testcases.SearchProductTest" class="method navigator-link" hash-for-method="VerifySearchWithInvalidProduct">VerifySearchWithInvalidProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TutorialsNinjaAutomationSuite" title="com.TutorialNinja.QA.Testcases.SearchProductTest" class="method navigator-link" hash-for-method="VerifySearchWithValidProduct">VerifySearchWithValidProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TutorialsNinjaAutomationSuite" title="com.TutorialNinja.QA.Testcases.SearchProductTest" class="method navigator-link" hash-for-method="VerifySearchWithoutenteranyProduct">VerifySearchWithoutenteranyProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TutorialsNinjaAutomationSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-TutorialsNinjaAutomationSuite" class="panel TutorialsNinjaAutomationSuite">
+          <div class="suite-TutorialsNinjaAutomationSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.TutorialNinja.QA.Testcases.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginintotheApplicationWithValidCredential(Sachingowda21mar@gmail.com, 1234)">
+                  </a> <!-- LoginintotheApplicationWithValidCredential(Sachingowda21mar@gmail.com, 1234) -->
+                  <span class="method-name">LoginintotheApplicationWithValidCredential</span>
+                  <span class="parameters">(Sachingowda21mar@gmail.com,1234)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Edit your account information&quot;}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c88ff8d4ec9d3dda3152871c3e143272, findElement {value=Edit your account information, using=link text}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Users\Achiv\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49682}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49682/devtoo..., se:cdpVersion: 121.0.6167.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c88ff8d4ec9d3dda3152871c3e143272
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.isDisplayed(Unknown Source)
+	at com.TutorialNinja.QA.PageObjects.AccountPage.VerifyDispalystatusofEditYourAccountInformationOption(AccountPage.java:26)
+	at com.TutorialNinja.QA.Testcases.LoginTest.LoginintotheApplicationWithValidCredential(LoginTest.java:60)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginintotheApplicationWithValidCredential(Sachingowda21mar@gmail.com, 12345)">
+                  </a> <!-- LoginintotheApplicationWithValidCredential(Sachingowda21mar@gmail.com, 12345) -->
+                  <span class="method-name">LoginintotheApplicationWithValidCredential</span>
+                  <span class="parameters">(Sachingowda21mar@gmail.com,12345)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Edit your account information&quot;}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [acbe9db9b87a6a76084be7774a7022aa, findElement {value=Edit your account information, using=link text}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Users\Achiv\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49395}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49395/devtoo..., se:cdpVersion: 121.0.6167.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: acbe9db9b87a6a76084be7774a7022aa
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.isDisplayed(Unknown Source)
+	at com.TutorialNinja.QA.PageObjects.AccountPage.VerifyDispalystatusofEditYourAccountInformationOption(AccountPage.java:26)
+	at com.TutorialNinja.QA.Testcases.LoginTest.LoginintotheApplicationWithValidCredential(LoginTest.java:60)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TutorialsNinjaAutomationSuite-class-failed -->
+          <div class="suite-TutorialsNinjaAutomationSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.TutorialNinja.QA.Testcases.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginintotheApplicationWithInvalidCredential">
+                  </a> <!-- LoginintotheApplicationWithInvalidCredential -->
+                  <span class="method-name">LoginintotheApplicationWithInvalidCredential</span>
+                  <div class="stack-trace">java.lang.Throwable: Method com.TutorialNinja.QA.Testcases.LoginTest.LoginintotheApplicationWithInvalidCredential() on instance com.TutorialNinja.QA.Testcases.LoginTest@712625fd depends on not successfully finished methods 
+[com.TutorialNinja.QA.Testcases.LoginTest.LoginintotheApplicationWithValidCredential() on instance com.TutorialNinja.QA.Testcases.LoginTest@712625fd]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TutorialsNinjaAutomationSuite-class-skipped -->
+          <div class="suite-TutorialsNinjaAutomationSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.TutorialNinja.QA.Testcases.SearchProductTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifySearchWithInvalidProduct">
+                  </a> <!-- VerifySearchWithInvalidProduct -->
+                  <span class="method-name">VerifySearchWithInvalidProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifySearchWithValidProduct">
+                  </a> <!-- VerifySearchWithValidProduct -->
+                  <span class="method-name">VerifySearchWithValidProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifySearchWithoutenteranyProduct">
+                  </a> <!-- VerifySearchWithoutenteranyProduct -->
+                  <span class="method-name">VerifySearchWithoutenteranyProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TutorialsNinjaAutomationSuite-class-passed -->
+          <div class="suite-TutorialsNinjaAutomationSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.TutorialNinja.QA.Testcases.RegistrationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegistertotheApplicationByFillingAllFields">
+                  </a> <!-- RegistertotheApplicationByFillingAllFields -->
+                  <span class="method-name">RegistertotheApplicationByFillingAllFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegistertotheApplicationByFillingAllMandatoryFields">
+                  </a> <!-- RegistertotheApplicationByFillingAllMandatoryFields -->
+                  <span class="method-name">RegistertotheApplicationByFillingAllMandatoryFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegistertotheApplicationByFillingexistingEmailAdrres">
+                  </a> <!-- RegistertotheApplicationByFillingexistingEmailAdrres -->
+                  <span class="method-name">RegistertotheApplicationByFillingexistingEmailAdrres</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegistertotheApplicationwithoutfillinganyfield">
+                  </a> <!-- RegistertotheApplicationwithoutfillinganyfield -->
+                  <span class="method-name">RegistertotheApplicationwithoutfillinganyfield</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TutorialsNinjaAutomationSuite-class-passed -->
+          <div class="suite-TutorialsNinjaAutomationSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.TutorialNinja.QA.Testcases.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginintotheApplicationWithInvalidEmailAndValidPassword">
+                  </a> <!-- LoginintotheApplicationWithInvalidEmailAndValidPassword -->
+                  <span class="method-name">LoginintotheApplicationWithInvalidEmailAndValidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginintotheApplicationWithValidCredential(Sachingowda21mar@gmail.com, Password@123)">
+                  </a> <!-- LoginintotheApplicationWithValidCredential(Sachingowda21mar@gmail.com, Password@123) -->
+                  <span class="method-name">LoginintotheApplicationWithValidCredential</span>
+                  <span class="parameters">(Sachingowda21mar@gmail.com,Password@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginintotheApplicationWithValidEmailAndInvalidPassword">
+                  </a> <!-- LoginintotheApplicationWithValidEmailAndInvalidPassword -->
+                  <span class="method-name">LoginintotheApplicationWithValidEmailAndInvalidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginintotheApplicationWithoutGivingCredentials">
+                  </a> <!-- LoginintotheApplicationWithoutGivingCredentials -->
+                  <span class="method-name">LoginintotheApplicationWithoutGivingCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TutorialsNinjaAutomationSuite-class-passed -->
+        </div> <!-- panel TutorialsNinjaAutomationSuite -->
+        <div panel-name="test-xml-TutorialsNinjaAutomationSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Achiv\Test work space 1\HybridAutomationFramework\src\test\resource\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;TutorialsNinjaAutomationSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.TutorialNinja.QA.Listeners.MyListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TutorialNinjaTestcases&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.TutorialNinja.QA.Testcases.RegistrationTest&quot;/&gt;
+      &lt;class name=&quot;com.TutorialNinja.QA.Testcases.LoginTest&quot;/&gt;
+      &lt;class name=&quot;com.TutorialNinja.QA.Testcases.SearchProductTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TutorialNinjaTestcases --&gt;
+&lt;/suite&gt; &lt;!-- TutorialsNinjaAutomationSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TutorialsNinjaAutomationSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TutorialsNinjaAutomationSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TutorialNinjaTestcases (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TutorialsNinjaAutomationSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TutorialsNinjaAutomationSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TutorialsNinjaAutomationSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TutorialsNinjaAutomationSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TutorialsNinjaAutomationSuite');
+function tableData_TutorialsNinjaAutomationSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(14);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'LoginintotheApplicationWithValidCredential')
+data.setCell(0, 2, 'com.TutorialNinja.QA.Testcases.LoginTest')
+data.setCell(0, 3, 10696);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'LoginintotheApplicationWithValidCredential')
+data.setCell(1, 2, 'com.TutorialNinja.QA.Testcases.LoginTest')
+data.setCell(1, 3, 10643);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'RegistertotheApplicationByFillingAllFields')
+data.setCell(2, 2, 'com.TutorialNinja.QA.Testcases.RegistrationTest')
+data.setCell(2, 3, 1510);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'RegistertotheApplicationByFillingAllMandatoryFields')
+data.setCell(3, 2, 'com.TutorialNinja.QA.Testcases.RegistrationTest')
+data.setCell(3, 3, 1439);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'RegistertotheApplicationByFillingexistingEmailAdrres')
+data.setCell(4, 2, 'com.TutorialNinja.QA.Testcases.RegistrationTest')
+data.setCell(4, 3, 1161);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'LoginintotheApplicationWithValidCredential')
+data.setCell(5, 2, 'com.TutorialNinja.QA.Testcases.LoginTest')
+data.setCell(5, 3, 820);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'LoginintotheApplicationWithInvalidEmailAndValidPassword')
+data.setCell(6, 2, 'com.TutorialNinja.QA.Testcases.LoginTest')
+data.setCell(6, 3, 797);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'VerifySearchWithValidProduct')
+data.setCell(7, 2, 'com.TutorialNinja.QA.Testcases.SearchProductTest')
+data.setCell(7, 3, 645);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'LoginintotheApplicationWithValidEmailAndInvalidPassword')
+data.setCell(8, 2, 'com.TutorialNinja.QA.Testcases.LoginTest')
+data.setCell(8, 3, 586);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'RegistertotheApplicationwithoutfillinganyfield')
+data.setCell(9, 2, 'com.TutorialNinja.QA.Testcases.RegistrationTest')
+data.setCell(9, 3, 576);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'LoginintotheApplicationWithoutGivingCredentials')
+data.setCell(10, 2, 'com.TutorialNinja.QA.Testcases.LoginTest')
+data.setCell(10, 3, 465);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'VerifySearchWithInvalidProduct')
+data.setCell(11, 2, 'com.TutorialNinja.QA.Testcases.SearchProductTest')
+data.setCell(11, 3, 398);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'VerifySearchWithoutenteranyProduct')
+data.setCell(12, 2, 'com.TutorialNinja.QA.Testcases.SearchProductTest')
+data.setCell(12, 3, 290);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'LoginintotheApplicationWithInvalidCredential')
+data.setCell(13, 2, 'com.TutorialNinja.QA.Testcases.LoginTest')
+data.setCell(13, 3, 0);
+window.suiteTableData['TutorialsNinjaAutomationSuite']= { tableData: data, tableDiv: 'times-div-TutorialsNinjaAutomationSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 30 seconds</span>
+              <div id="times-div-TutorialsNinjaAutomationSuite">
+              </div> <!-- times-div-TutorialsNinjaAutomationSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TutorialsNinjaAutomationSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TutorialsNinjaAutomationSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TutorialsNinjaAutomationSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TutorialsNinjaAutomationSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TutorialNinja.QA.Testcases.RegistrationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">StartUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RegistertotheApplicationByFillingAllMandatoryFields</span>
+                <span class="method-start">6218 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">7660 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">StartUp</span>
+                <span class="method-start">8001 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RegistertotheApplicationByFillingAllFields</span>
+                <span class="method-start">10260 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">11770 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">StartUp</span>
+                <span class="method-start">12063 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RegistertotheApplicationByFillingexistingEmailAdrres</span>
+                <span class="method-start">14181 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">15343 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">StartUp</span>
+                <span class="method-start">15648 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RegistertotheApplicationwithoutfillinganyfield</span>
+                <span class="method-start">17649 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">18226 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TutorialNinja.QA.Testcases.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">StartUp</span>
+                <span class="method-start">19598 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginintotheApplicationWithValidCredential(Sachingowda21mar@gmail.com, Password@123)</span>
+                <span class="method-start">21445 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">22266 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">StartUp</span>
+                <span class="method-start">22547 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">LoginintotheApplicationWithValidCredential(Sachingowda21mar@gmail.com, 12345)</span>
+                <span class="method-start">24669 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">35556 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">StartUp</span>
+                <span class="method-start">35885 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">LoginintotheApplicationWithValidCredential(Sachingowda21mar@gmail.com, 1234)</span>
+                <span class="method-start">37836 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">48690 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">StartUp</span>
+                <span class="method-start">49081 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginintotheApplicationWithInvalidEmailAndValidPassword</span>
+                <span class="method-start">51163 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">51961 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">StartUp</span>
+                <span class="method-start">52328 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginintotheApplicationWithValidEmailAndInvalidPassword</span>
+                <span class="method-start">55430 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">56017 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">StartUp</span>
+                <span class="method-start">56334 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginintotheApplicationWithoutGivingCredentials</span>
+                <span class="method-start">58365 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">58831 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TutorialNinja.QA.Testcases.SearchProductTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">StartUp</span>
+                <span class="method-start">59101 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifySearchWithValidProduct</span>
+                <span class="method-start">60641 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">61287 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">StartUp</span>
+                <span class="method-start">61568 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifySearchWithInvalidProduct</span>
+                <span class="method-start">63205 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">63604 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">StartUp</span>
+                <span class="method-start">63852 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifySearchWithoutenteranyProduct</span>
+                <span class="method-start">65669 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">65960 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
